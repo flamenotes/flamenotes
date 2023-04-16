@@ -1,15 +1,34 @@
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/.php_cs.cache
+/tmp
+/vendor
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env
 
-# Test binary, built with `go test -c`
-*.test
+# Folders with IDE`s settings
+/.idea
+/.vscode
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+.phpunit.result.cache
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# php-cs-fixer
+.php-cs-fixer.cache
+
+# PHPUnit coverage files
+/storage/coverage
+
+# Files with identifiers
+foo*.csv
+*.csv.success
+*.csv.duplicates
+*.csv.errors
+
+# OS X 
+.DS_Store
